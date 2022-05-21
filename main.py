@@ -2,6 +2,7 @@ import datetime
 import pytz
 import basic
 import data
+import pywhatkit
 
 def run(main):
     intents = main.split()
@@ -30,14 +31,9 @@ def run(main):
         response = data.bot(main)
         if response.op == False:
             try:
-                import pywhatkit
-                try:
-                    # basic.info('searching in cloud')
-                    return str(pywhatkit.info(main,return_value=True))
-                except:
-                    return 'no result were found on network'
+                return str(pywhatkit.info(main,return_value=True))
             except:
-                return 'no network'
+                return 'no result were found on network'
         else:
             return response.op
 
