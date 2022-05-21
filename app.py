@@ -24,7 +24,7 @@ def bot(bot, user, intents):
         op = random.choice(op)
     op = op.replace(root.bot, bot)
     op = op.replace(root.name, user)
-    response = jsonify(op.upper())
+    response = jsonify(op.upper().replace('"',''))
     response.headers.add('Access-Control-Allow-Origin', '*')
     response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
     response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
