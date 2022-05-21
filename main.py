@@ -33,7 +33,7 @@ def run(main):
                 import pywhatkit
                 try:
                     # basic.info('searching in cloud')
-                    return str(pywhatkit.info(main))
+                    return str(pywhatkit.info(main,return_value=True))
                 except:
                     return 'no result were found on network'
             except:
