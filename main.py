@@ -2,7 +2,7 @@ import datetime
 import pytz
 import basic
 import data
-import pywhatkit
+import wikipedia
 
 def run(main):
     intents = main.split()
@@ -31,7 +31,7 @@ def run(main):
         response = data.bot(main)
         if response.op == False:
             try:
-                return str(pywhatkit.info(main,return_value=True))
+                return wikipedia.summary("Wikipedia")
             except:
                 return 'no result were found on network'
         else:
