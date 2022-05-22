@@ -31,7 +31,7 @@ def run(main):
         response = data.bot(main)
         if response.op == False:
             try:
-                return wikipedia.summary("Wikipedia")
+                return wikipedia.summary(main,sentences=2)
             except:
                 return 'no result were found on network'
         else:
