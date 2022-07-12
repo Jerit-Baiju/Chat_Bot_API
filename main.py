@@ -29,7 +29,7 @@ def run(main):
             if words not in main:
                 main.append(words)
         response = data.bot(main)
-        if response.op == False:
+        if response.op == False or response.per < 40:
             try:
                 return wikipedia.summary(main,sentences=2)
             except:

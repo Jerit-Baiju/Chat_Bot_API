@@ -43,7 +43,6 @@ def run():
         op = cmd['op']
         data_file.write(f"cmd_{var} = cmd('{main}')\ncmd_{var}.op = {op}\n\n")
     data_file.write('\n'+ai_file.read())
-    basic.out('data loaded')
     data_file.close()
     model_file.close()
     ai_file.close()

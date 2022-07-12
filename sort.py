@@ -1,6 +1,7 @@
 import basic
 
 def run():
+    print(['add','scan'])
     main = basic.inp()
     if main == 'add':
         add = True
@@ -26,7 +27,7 @@ def run():
             if match == "":
                 basic.info('set blank')
                 f = open('dict.txt','a')
-                f.write(new)
+                f.write(new+"\n")
                 f.close()
                 basic.out('process completed')
             else:

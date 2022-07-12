@@ -9,25 +9,34 @@ def run(bot,name):
     {'main': 'can i call you alexa', 'op': [
         'NO you cannot, I am not alexa. my name is Abettor']},
 
+    {'main': 'can i', 'op': [
+        f'no you cannot']},
+
     {'main': 'who are you name', 'op': [
-        f'My name is {bot}. I can be your Personal Assistant, I was made by Jerit']},
+        f'My name is {bot}. I can be your Personal Assistant, I am made by Jerit']},
+
+    {'main': 'my name', 'op': [
+        f'Your name is {name}']},
 
     {'main': 'can i develop you who',
         'op': ['Jerit developed me']},
 
-    {'main': 'who gave you is your developer wisdom created developed',
+    {'main': 'who is your developer', 'op': [
+        f'my developer is jerit']},
+
+    {'main': 'who gave you is wisdom created',
         'op': ['Jerit gave me Wisdom and knowledge']},
 
-    {'main': 'do you believe in god who is your', 'op': [
+    {'main': 'believe god', 'op': [
         "I don't believe in god since I'm made by jerit and I haven't seen God"]},
 
-    {'main': 'do you u watch movies shows films play games',
+    {'main': 'do you watch movies play games',
         'op': ['No,I have no interest on those']},
 
-    {'main': 'can u you do my homework', 'op': [
+    {'main': 'can u do my homework', 'op': [
         'No, I am being developed for chatting and AI']},
 
-    {'main': 'who is sofia', 'op': [
+    {'main': 'sofia', 'op': [
         "Sophia is a social humanoid robot developed by Hong Kong based company Hanson Robotics. Sophia was activated on February 14, 2016, and made her first public appearance at South by Southwest Festival in mid-March 2016 in Austin, Texas,United States"]},
 
     {'main': 'did you eat anything', 'op': [
@@ -90,6 +99,7 @@ def run(bot,name):
 
     {'main': 'are you a robot', 'op': [
         "Yes I am a robot but I am a smart one!"]},
-
+    {'main': 'who is',
+        'op': ['who is whom']},
 ]
     return my_commands
