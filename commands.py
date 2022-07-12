@@ -7,7 +7,7 @@ def run(bot,name):
         "i'm feeling good", "i'm fine", "going well", "feeling good", "i'm feeling well"]},
 
     {'main': 'can i call you alexa', 'op': [
-        'NO you cannot, I am not alexa. my name is Abettor']},
+        f'NO you cannot, I am not alexa. my name is {bot}']},
 
     {'main': 'can i', 'op': [
         f'no you cannot']},
