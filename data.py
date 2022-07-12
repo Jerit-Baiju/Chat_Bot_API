@@ -18,7 +18,7 @@ cmd_2 = cmd('how r u')
 cmd_2.op = ["i'm feeling good", "i'm fine", 'going well', 'feeling good', "i'm feeling well"]
 
 cmd_3 = cmd('can i call you alexa')
-cmd_3.op = ['NO you cannot, I am not alexa. my name is Abettor']
+cmd_3.op = ['NO you cannot, I am not alexa. my name is <<root-bot>>']
 
 cmd_4 = cmd('can i')
 cmd_4.op = ['no you cannot']
