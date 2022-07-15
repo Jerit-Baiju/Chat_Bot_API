@@ -29,11 +29,11 @@ def run(main):
             if words not in main:
                 main.append(words)
         response = data.bot(main)
-        if response.op == False or response.per < 40:
+        if response.op == False or response.per < 70:
             try:
                 return wikipedia.summary(main,sentences=2)
             except:
                 return 'no result were found on network'
         else:
-            return response.op
+            return response
 

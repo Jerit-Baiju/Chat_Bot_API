@@ -2,5 +2,11 @@ import main
 
 while True:
     intents = input("--> ")
-    op = main.run(intents)
-    print(op)
+    data = main.run(intents)
+    try:
+        op = {
+            'percentage': data.per,
+            'op': data.op
+        }
+    except:
+        print(data)
