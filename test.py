@@ -39,12 +39,12 @@ def run(main):
 
 while True:
     intents = input('--> ')
-    data = run(intents)
+    bot_data = run(intents)
     try:
         op = {
-            'percentage': data.per,
-            'op': data.op
+            'percentage': bot_data.per,
+            'op': bot_data.op
         }
         print(op)
     except:
-        print(data)
+        print(bot_data)
