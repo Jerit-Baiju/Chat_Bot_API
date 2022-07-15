@@ -14,13 +14,13 @@ class cmd:
 cmd_1 = cmd('hi <<root-bot>>')
 cmd_1.op = ['hey there !', 'hai <<root-name>>', 'hello sir']
 
-cmd_2 = cmd('how r u')
-cmd_2.op = ["i'm feeling good", "i'm fine", 'going well', 'feeling good', "i'm feeling well"]
+cmd_2 = cmd('alexa')
+cmd_2.op = ['You cannot call me that like, I am not alexa. my name is <<root-bot>>']
 
-cmd_3 = cmd('alexa')
-cmd_3.op = ['You cannot call me that like, I am not alexa. my name is <<root-bot>>']
+cmd_3 = cmd('how r u')
+cmd_3.op = ["i'm feeling good", "i'm fine", 'going well', 'feeling good', "i'm feeling well"]
 
-cmd_4 = cmd('who are you name')
+cmd_4 = cmd('you name')
 cmd_4.op = ['My name is <<root-bot>>. I can be your Personal Assistant, I am made by Jerit']
 
 cmd_5 = cmd('my name')
@@ -30,7 +30,7 @@ cmd_6 = cmd('can i develop you who')
 cmd_6.op = ['Jerit developed me']
 
 cmd_7 = cmd('who is your developer')
-cmd_7.op = ['my developer is jerit']
+cmd_7.op = ['my developer is jerit baiju, you can reach him at https://jerit.herokuapp.com']
 
 cmd_8 = cmd('who gave you is wisdom created')
 cmd_8.op = ['Jerit gave me Wisdom and knowledge']

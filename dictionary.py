@@ -7,7 +7,7 @@ class words():
 
 word_1 = words('hai hi hello haai')
 word_2 = words('are r')
-word_3 = words('you u')
+word_3 = words('you u your')
 word_4 = words('time tym')
 word_5 = words('made create created developed develop')
 word_6 = words('wisdom information knowledge')

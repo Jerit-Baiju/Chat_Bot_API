@@ -3,13 +3,13 @@ def run(bot,name):
     {'main': f'hi {bot}', 'op': [
         'hey there !', f'hai {name}', 'hello sir']},
 
-    {'main': 'how r u', 'op': [
-        "i'm feeling good", "i'm fine", "going well", "feeling good", "i'm feeling well"]},
-
     {'main': 'alexa', 'op': [
         f'You cannot call me that like, I am not alexa. my name is {bot}']},
 
-    {'main': 'who are you name', 'op': [
+    {'main': 'how r u', 'op': [
+        "i'm feeling good", "i'm fine", "going well", "feeling good", "i'm feeling well"]},
+
+    {'main': 'you name', 'op': [
         f'My name is {bot}. I can be your Personal Assistant, I am made by Jerit']},
 
     {'main': 'my name', 'op': [
@@ -19,7 +19,7 @@ def run(bot,name):
         'op': ['Jerit developed me']},
 
     {'main': 'who is your developer', 'op': [
-        f'my developer is jerit']},
+        f'my developer is jerit baiju, you can reach him at https://jerit.herokuapp.com']},
 
     {'main': 'who gave you is wisdom created',
         'op': ['Jerit gave me Wisdom and knowledge']},
@@ -93,7 +93,7 @@ def run(bot,name):
 
     {'main': 'are you a robot', 'op': [
         "Yes I am a robot but I am a smart one!"]},
-        
+
     {'main': 'who is',
         'op': ['who is whom']},
 ]
