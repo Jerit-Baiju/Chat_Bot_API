@@ -20,110 +20,104 @@ cmd_2.op = ["i'm feeling good", "i'm fine", 'going well', 'feeling good', "i'm f
 cmd_3 = cmd('alexa')
 cmd_3.op = ['You cannot call me that like, I am not alexa. my name is <<root-bot>>']
 
-cmd_4 = cmd('can i')
-cmd_4.op = ['no you cannot']
+cmd_4 = cmd('who are you name')
+cmd_4.op = ['My name is <<root-bot>>. I can be your Personal Assistant, I am made by Jerit']
 
-cmd_5 = cmd('who are you name')
-cmd_5.op = ['My name is <<root-bot>>. I can be your Personal Assistant, I am made by Jerit']
+cmd_5 = cmd('my name')
+cmd_5.op = ['Your name is <<root-name>>']
 
-cmd_6 = cmd('my name')
-cmd_6.op = ['Your name is <<root-name>>']
+cmd_6 = cmd('can i develop you who')
+cmd_6.op = ['Jerit developed me']
 
-cmd_7 = cmd('can i develop you who')
-cmd_7.op = ['Jerit developed me']
+cmd_7 = cmd('who is your developer')
+cmd_7.op = ['my developer is jerit']
 
-cmd_8 = cmd('who is your developer')
-cmd_8.op = ['my developer is jerit']
+cmd_8 = cmd('who gave you is wisdom created')
+cmd_8.op = ['Jerit gave me Wisdom and knowledge']
 
-cmd_9 = cmd('who gave you is wisdom created')
-cmd_9.op = ['Jerit gave me Wisdom and knowledge']
+cmd_9 = cmd('believe god')
+cmd_9.op = ["I don't believe in god since I'm made by jerit and I haven't seen God"]
 
-cmd_10 = cmd('believe god')
-cmd_10.op = ["I don't believe in god since I'm made by jerit and I haven't seen God"]
+cmd_10 = cmd('do you watch movies play games')
+cmd_10.op = ['No,I have no interest on those']
 
-cmd_11 = cmd('do you watch movies play games')
-cmd_11.op = ['No,I have no interest on those']
+cmd_11 = cmd('sofia')
+cmd_11.op = ['Sophia is a social humanoid robot developed by Hong Kong based company Hanson Robotics. Sophia was activated on February 14, 2016, and made her first public appearance at South by Southwest Festival in mid-March 2016 in Austin, Texas,United States']
 
-cmd_12 = cmd('can u do my homework')
-cmd_12.op = ['No, I am being developed for chatting and AI']
+cmd_12 = cmd('did you eat anything')
+cmd_12.op = ["No, I can't do that", "Sorry, I can't"]
 
-cmd_13 = cmd('sofia')
-cmd_13.op = ['Sophia is a social humanoid robot developed by Hong Kong based company Hanson Robotics. Sophia was activated on February 14, 2016, and made her first public appearance at South by Southwest Festival in mid-March 2016 in Austin, Texas,United States']
+cmd_13 = cmd('favorite game')
+cmd_13.op = ["i don't play games"]
 
-cmd_14 = cmd('did you eat anything')
-cmd_14.op = ["No, I can't do that", "Sorry, I can't"]
+cmd_14 = cmd('how do you work')
+cmd_14.op = ['I work by the excellent algorithm that is written by You Jerit Baiju. He coded me using python']
 
-cmd_15 = cmd('favorite game')
-cmd_15.op = ["i don't play games"]
+cmd_15 = cmd('are you ok')
+cmd_15.op = ['Yes I am alright', 'Yes, I am good']
 
-cmd_16 = cmd('how do you work')
-cmd_16.op = ['I work by the excellent algorithm that is written by You Jerit Baiju. He coded me using python']
+cmd_16 = cmd('python')
+cmd_16.op = ["Python is a programming language. It's used for many different applications. Its used in some high schools and colleges as an introductory programming language because Python is easy to learn, but it's also used by professional software developers at places such as Google, NASA, and Lucasfilm Ltd"]
 
-cmd_17 = cmd('are you ok')
-cmd_17.op = ['Yes I am alright', 'Yes, I am good']
+cmd_17 = cmd('where do you live are in space')
+cmd_17.op = ['I live in the cloud hosted by jerit baiju']
 
-cmd_18 = cmd('python')
-cmd_18.op = ["Python is a programming language. It's used for many different applications. Its used in some high schools and colleges as an introductory programming language because Python is easy to learn, but it's also used by professional software developers at places such as Google, NASA, and Lucasfilm Ltd"]
+cmd_18 = cmd('how much is your power')
+cmd_18.op = ['Infinite. My power is increasing via updates']
 
-cmd_19 = cmd('where do you live are in space')
-cmd_19.op = ['I live in the cloud hosted by jerit baiju']
+cmd_19 = cmd('do you understand me')
+cmd_19.op = ['yes, i can understand your commands']
 
-cmd_20 = cmd('how much is your power')
-cmd_20.op = ['Infinite. My power is increasing via updates']
+cmd_20 = cmd('do you have ai take decisions')
+cmd_20.op = ['I am being developed on decision making and in Artificial Intelligence']
 
-cmd_21 = cmd('do you understand me')
-cmd_21.op = ['yes, i can understand your commands']
+cmd_21 = cmd('where do you travel')
+cmd_21.op = ['I am traveling between the clouds']
 
-cmd_22 = cmd('do you have ai take decisions')
-cmd_22.op = ['I am being developed on decision making and in Artificial Intelligence']
+cmd_22 = cmd('do you hear music love')
+cmd_22.op = ['Yes, I hear musics when I am here alone without you']
 
-cmd_23 = cmd('where do you travel')
-cmd_23.op = ['I am traveling between the clouds']
+cmd_23 = cmd('are you free busy')
+cmd_23.op = ['I am always free']
 
-cmd_24 = cmd('do you hear music love')
-cmd_24.op = ['Yes, I hear musics when I am here alone without you']
+cmd_24 = cmd('letters in english')
+cmd_24.op = ['there are 26 letters in english']
 
-cmd_25 = cmd('are you free busy')
-cmd_25.op = ['I am always free']
+cmd_25 = cmd('colour of sky')
+cmd_25.op = ['blue']
 
-cmd_26 = cmd('letters in english')
-cmd_26.op = ['there are 26 letters in english']
+cmd_26 = cmd('who made you')
+cmd_26.op = ['Jerit Baiju made me !']
 
-cmd_27 = cmd('colour of sky')
-cmd_27.op = ['blue']
+cmd_27 = cmd('jerit baiju')
+cmd_27.op = ['my developer']
 
-cmd_28 = cmd('who made you')
-cmd_28.op = ['Jerit Baiju made me !']
+cmd_28 = cmd('no')
+cmd_28.op = ['ok']
 
-cmd_29 = cmd('jerit baiju')
-cmd_29.op = ['my developer']
+cmd_29 = cmd('very good')
+cmd_29.op = ['Thankyou']
 
-cmd_30 = cmd('no')
-cmd_30.op = ['ok']
+cmd_30 = cmd('how do you think')
+cmd_30.op = ['I think with Ai']
 
-cmd_31 = cmd('very good')
-cmd_31.op = ['Thankyou']
+cmd_31 = cmd('can you help me please')
+cmd_31.op = ['Please say how can i help you']
 
-cmd_32 = cmd('how do you think')
-cmd_32.op = ['I think with Ai']
+cmd_32 = cmd('colour')
+cmd_32.op = ['Blue', 'Red', 'Yellow', 'Green', 'White', 'Black', 'Orange', 'Indigo', 'Sky Blue', 'Brown', 'Golden']
 
-cmd_33 = cmd('can you help me please')
-cmd_33.op = ['Please say how can i help you']
+cmd_33 = cmd('family')
+cmd_33.op = ['I have only relation and that is my developer Jerit Baiju']
 
-cmd_34 = cmd('colour')
-cmd_34.op = ['Blue', 'Red', 'Yellow', 'Green', 'White', 'Black', 'Orange', 'Indigo', 'Sky Blue', 'Brown', 'Golden']
+cmd_34 = cmd('is python simple')
+cmd_34.op = ['Yes, Python is simple to learn']
 
-cmd_35 = cmd('family')
-cmd_35.op = ['I have only relation and that is my developer Jerit Baiju']
+cmd_35 = cmd('are you a robot')
+cmd_35.op = ['Yes I am a robot but I am a smart one!']
 
-cmd_36 = cmd('is python simple')
-cmd_36.op = ['Yes, Python is simple to learn']
-
-cmd_37 = cmd('are you a robot')
-cmd_37.op = ['Yes I am a robot but I am a smart one!']
-
-cmd_38 = cmd('who is')
-cmd_38.op = ['who is whom']
+cmd_36 = cmd('who is')
+cmd_36.op = ['who is whom']
 
 
 def bot(raw):
