@@ -9,9 +9,6 @@ def run(bot,name):
     {'main': 'alexa', 'op': [
         f'You cannot call me that like, I am not alexa. my name is {bot}']},
 
-    {'main': 'can i', 'op': [
-        f'no you cannot']},
-
     {'main': 'who are you name', 'op': [
         f'My name is {bot}. I can be your Personal Assistant, I am made by Jerit']},
 
@@ -32,9 +29,6 @@ def run(bot,name):
 
     {'main': 'do you watch movies play games',
         'op': ['No,I have no interest on those']},
-
-    {'main': 'can u do my homework', 'op': [
-        'No, I am being developed for chatting and AI']},
 
     {'main': 'sofia', 'op': [
         "Sophia is a social humanoid robot developed by Hong Kong based company Hanson Robotics. Sophia was activated on February 14, 2016, and made her first public appearance at South by Southwest Festival in mid-March 2016 in Austin, Texas,United States"]},
