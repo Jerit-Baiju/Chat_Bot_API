@@ -19,7 +19,7 @@ def index():
 @app.route('/api/<string:bot>/<string:user>/<string:intents>', methods=['GET'])
 def bot(bot, user, intents):
     intents = str(intents).replace(bot,root.bot)
-    op = main.run(intents).op
+    op = main.run(intents)
     if type(op) == list:
         op = random.choice(op)
     op = op.replace(root.bot, bot)

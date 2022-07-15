@@ -35,5 +35,5 @@ def run(main):
             except:
                 return 'no result were found on network'
         else:
-            return response
+            return response.op
 
