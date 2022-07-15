@@ -93,6 +93,7 @@ def run(bot,name):
 
     {'main': 'are you a robot', 'op': [
         "Yes I am a robot but I am a smart one!"]},
+        
     {'main': 'who is',
         'op': ['who is whom']},
 ]

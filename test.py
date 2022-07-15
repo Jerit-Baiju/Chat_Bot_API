@@ -1,2 +1,6 @@
 import main
-print(main.run('how is you'))
+
+while True:
+    intents = input("--> ")
+    op = main.run(intents)
+    print(op)
