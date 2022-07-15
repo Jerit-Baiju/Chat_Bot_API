@@ -17,8 +17,8 @@ cmd_1.op = ['hey there !', 'hai <<root-name>>', 'hello sir']
 cmd_2 = cmd('how r u')
 cmd_2.op = ["i'm feeling good", "i'm fine", 'going well', 'feeling good', "i'm feeling well"]
 
-cmd_3 = cmd('can i call you alexa')
-cmd_3.op = ['NO you cannot, I am not alexa. my name is <<root-bot>>']
+cmd_3 = cmd('alexa')
+cmd_3.op = ['You cannot call me that like, I am not alexa. my name is <<root-bot>>']
 
 cmd_4 = cmd('can i')
 cmd_4.op = ['no you cannot']
