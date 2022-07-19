@@ -3,6 +3,9 @@ def run(bot,name):
     {'main': f'hi {bot}', 'op': [
         'hey there !', f'hai {name}', 'hello sir']},
 
+    {'main': 'hi', 'op': [
+        'hey there !', f'hai {name}', 'hello sir']},
+
     {'main': 'alexa', 'op': [
         f'You cannot call me that like, I am not alexa. my name is {bot}']},
 
