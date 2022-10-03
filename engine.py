@@ -1,4 +1,3 @@
-import basic
 from commands import run as commands
 import root
 
@@ -46,5 +45,5 @@ def run():
     data_file.close()
     model_file.close()
     ai_file.close()
-
-run()
+if __name__ == "__main__":
+    run()

@@ -125,6 +125,9 @@ cmd_37.op = ['who is whom']
 cmd_38 = cmd('so you r working now')
 cmd_38.op = ['yes im working']
 
+cmd_39 = cmd('u r awesome')
+cmd_39.op = ['thankyou!']
+
 
 def bot(raw):
     intents = []

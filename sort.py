@@ -1,11 +1,13 @@
 import basic
+import engine
+
 
 def run():
-    print(">>> "+str(['add','scan']))
+    print(">>> "+str(['add', 'scan']))
     main = basic.inp()
     if main == 'add':
         add = True
-        f = open('dict.txt','r')
+        f = open('dict.txt', 'r')
         dict = f.read().split()
         new = basic.sub('enter the words')
         words = new.split()
@@ -16,17 +18,18 @@ def run():
                 break
         f.close()
         if add == True:
-            f = open('dict.txt','r')
+            f = open('dict.txt', 'r')
             read = f.readlines()
             f.close()
             initial = []
             for x in read:
                 initial.append(x.split()[0])
             basic.out(str(initial))
-            match = basic.sub('leave blank if you need to add new synonyms, else type the synonym initial')
+            match = basic.sub(
+                'leave blank if you need to add new synonyms, else type the synonym initial')
             if match == "":
                 basic.info('set blank')
-                f = open('dict.txt','a')
+                f = open('dict.txt', 'a')
                 f.write(new+"\n")
                 f.close()
                 basic.out('process completed')
@@ -34,20 +37,19 @@ def run():
                 for x in read:
                     if x.split()[0] == match:
                         section = x
-                        section = section.replace('\n','')
+                        section = section.replace('\n', '')
                 basic.info(f'section --- {section}')
-                f = open('dict.txt','r')
+                f = open('dict.txt', 'r')
                 words = f.read()
-                words = words.replace(section,f"{section} {new}")
+                words = words.replace(section, f"{section} {new}")
                 f.close()
 
-                f = open('dict.txt','w')
+                f = open('dict.txt', 'w')
                 f.write(words)
                 f.close()
 
-
     elif main in ['scan', 'check']:
-        f = open('dict.txt','r')
+        f = open('dict.txt', 'r')
         dict = f.read().split()
         new = []
         for word in dict:
@@ -60,9 +62,10 @@ def run():
 
     elif main == 'x':
         exit()
-        
+
     else:
         basic.out('unknown command')
     run()
 
+    engine.run()
 run()

@@ -8,7 +8,7 @@ class words():
 word_1 = words('hai hi hello haai')
 word_2 = words('are r')
 word_3 = words('you u your')
-word_4 = words('time tym')
+word_4 = words('time tym tim')
 word_5 = words('made create created developed develop')
 word_6 = words('wisdom information knowledge')
 word_7 = words('your ur')
@@ -27,7 +27,7 @@ word_19 = words('alexa jarvis clara elio elora')
 word_20 = words('who what')
 word_21 = words('clr clear')
 word_22 = words('movies shows films')
-word_23 = words('no nope')
+word_23 = words('no nope nop')
 word_24 = words('yes yup yep')
 
 def run(word):
