@@ -1,6 +1,7 @@
 def run(bot, name):
     my_commands = [
-        {"main": f"hi {bot}", "op": ["hey there !", f"hai {name}", "hello sir"]},
+        {"main": f"hi {bot}", "op": [
+            "hey there !", f"hai {name}", "hello sir"]},
         {"main": "hi", "op": ["hey there !", f"hai {name}", "hello sir"]},
         {
             "main": "alexa",
@@ -76,27 +77,31 @@ def run(bot, name):
             "main": "how much is your power",
             "op": ["Infinite. My power is increasing via updates"],
         },
-        {"main": "do you understand me", "op": ["yes, i can understand your commands"]},
+        {"main": "do you understand me", "op": [
+            "yes, i can understand your commands"]},
         {
             "main": "do you have ai take decisions",
             "op": [
                 "I am being developed on decision making and in Artificial Intelligence"
             ],
         },
-        {"main": "where do you travel", "op": ["I am traveling between the clouds"]},
+        {"main": "where do you travel", "op": [
+            "I am traveling between the clouds"]},
         {
             "main": "do you hear music love",
             "op": ["Yes, I hear musics when I am here alone without you"],
         },
         {"main": "are you free busy", "op": ["I am always free"]},
-        {"main": "letters in english", "op": ["there are 26 letters in english"]},
+        {"main": "letters in english", "op": [
+            "there are 26 letters in english"]},
         {"main": "colour of sky", "op": ["blue"]},
         {"main": "who made you", "op": ["Jerit Baiju made me !"]},
         {"main": "Jerit Baiju", "op": ["my developer"]},
         {"main": "no", "op": ["ok"]},
         {"main": "very good", "op": ["Thankyou"]},
         {"main": "how do you think", "op": ["I think with Ai"]},
-        {"main": "can you help me please", "op": ["Please say how can i help you"]},
+        {"main": "can you help me please", "op": [
+            "Please say how can i help you"]},
         {
             "main": "colour",
             "op": [
@@ -118,8 +123,11 @@ def run(bot, name):
             "op": ["I have only relation and that is my developer Jerit Baiju"],
         },
         {"main": "is python simple", "op": ["Yes, Python is simple to learn"]},
-        {"main": "are you a robot", "op": ["Yes I am a robot but I am a smart one!"]},
+        {"main": "are you a robot", "op": [
+            "Yes I am a robot but I am a smart one!"]},
         {"main": "who is", "op": ["who is whom"]},
         {"main": "so you r working now", "op": ["yes im working"]},
+        {"main": "", "op": [""]}
     ]
     return my_commands
+# {"main": "", "op": [""]}
