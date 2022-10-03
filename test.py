@@ -23,6 +23,9 @@ def run(main):
             cmds.append(op)
         return str(cmds)
 
+    elif main == "x":
+        exit()
+
     else:
         main = []
         for words in intents:
