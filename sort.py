@@ -65,7 +65,8 @@ def run():
 
     else:
         basic.out('unknown command')
+    
+    engine.run()
     run()
 
-    engine.run()
 run()
