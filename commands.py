@@ -127,7 +127,7 @@ def run(bot, name):
             "Yes I am a robot but I am a smart one!"]},
         {"main": "who is", "op": ["who is whom"]},
         {"main": "so you r working now", "op": ["yes im working"]},
-        {"main": "", "op": [""]}
+        {"main": "u r awesome", "op": ["thankyou!"]}
     ]
     return my_commands
 # {"main": "", "op": [""]}
