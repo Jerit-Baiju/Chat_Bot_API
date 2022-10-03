@@ -29,6 +29,7 @@ word_21 = words('clr clear')
 word_22 = words('movies shows films')
 word_23 = words('no nope nop')
 word_24 = words('yes yup yep')
+word_25 = words('awesome good nice')
 
 def run(word):
     for synonyms in words.total:
