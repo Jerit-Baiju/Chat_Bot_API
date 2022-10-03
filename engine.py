@@ -1,6 +1,7 @@
 from commands import run as commands
 import root
 
+
 def run():
     data_file = open('data.py', 'w')
     data_file.write('')
@@ -12,7 +13,7 @@ def run():
     dict_file.write('')
     dict_file.close()
     dict_file = open('dictionary.py', 'w')
-    
+
     var = 0
     dict_file.write("""class words():
     total = []
@@ -36,7 +37,7 @@ def run():
 
     var = 0
     data_file.write(model_file.read() + '\n')
-    for cmd in commands(root.bot,root.name):
+    for cmd in commands(root.bot, root.name):
         var = var + 1
         main = cmd['main'].casefold()
         op = cmd['op']
@@ -45,5 +46,7 @@ def run():
     data_file.close()
     model_file.close()
     ai_file.close()
+
+
 if __name__ == "__main__":
     run()
