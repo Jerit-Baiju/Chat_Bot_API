@@ -1,7 +1,7 @@
 import basic
 
 def run():
-    print(['add','scan'])
+    print(">>> "+str(['add','scan']))
     main = basic.inp()
     if main == 'add':
         add = True
