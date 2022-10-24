@@ -91,7 +91,7 @@ def run(bot, name):
             "main": "do you hear music love",
             "op": ["Yes, I hear musics when I am here alone without you"],
         },
-        {"main": "are you free busy", "op": ["I am always free"]},
+        {"main": "are you free busy", "op": ["of course i am, i'm always here for you whenever you need me. "]},
         {"main": "letters in english", "op": [
             "there are 26 letters in english"]},
         {"main": "colour of sky", "op": ["blue"]},
