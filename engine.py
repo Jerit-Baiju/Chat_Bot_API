@@ -26,7 +26,7 @@ def run():
         word = words.split()
         strings = ' '.join(word)
         var = var + 1
-        dict_file.write(f"word_{var} = words('{strings}')\n")
+        dict_file.write(f'word_{var} = words("{strings}")\n')
 
     dict_file.write("""\ndef run(word):
     for synonyms in words.total:
@@ -41,7 +41,7 @@ def run():
         var = var + 1
         main = cmd['main'].casefold()
         op = cmd['op']
-        data_file.write(f"cmd_{var} = cmd('{main}')\ncmd_{var}.op = {op}\n\n")
+        data_file.write(f'cmd_{var} = cmd("{main}")\ncmd_{var}.op = {op}\n\n')
     data_file.write('\n'+ai_file.read())
     data_file.close()
     model_file.close()
