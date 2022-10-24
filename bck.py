@@ -114,4 +114,4 @@ def run(bot, name):
         {"main": "u r awesome", "op": ["thankyou!"]}
     ]
     return my_commands
-
+# {"main": "", "op": [""]}
