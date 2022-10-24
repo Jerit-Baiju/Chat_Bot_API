@@ -107,26 +107,23 @@ cmd_31.op = ['I think with Ai']
 cmd_32 = cmd('can you help me please')
 cmd_32.op = ['Please say how can i help you']
 
-cmd_33 = cmd('colour')
-cmd_33.op = ['Blue', 'Red', 'Yellow', 'Green', 'White', 'Black', 'Orange', 'Indigo', 'Sky Blue', 'Brown', 'Golden']
+cmd_33 = cmd('family')
+cmd_33.op = ['I have only relation and that is my developer Jerit Baiju']
 
-cmd_34 = cmd('family')
-cmd_34.op = ['I have only relation and that is my developer Jerit Baiju']
+cmd_34 = cmd('is python simple')
+cmd_34.op = ['Yes, Python is simple to learn']
 
-cmd_35 = cmd('is python simple')
-cmd_35.op = ['Yes, Python is simple to learn']
+cmd_35 = cmd('are you a robot')
+cmd_35.op = ['Yes I am a robot but I am a smart one!']
 
-cmd_36 = cmd('are you a robot')
-cmd_36.op = ['Yes I am a robot but I am a smart one!']
+cmd_36 = cmd('who is')
+cmd_36.op = ['who is whom']
 
-cmd_37 = cmd('who is')
-cmd_37.op = ['who is whom']
+cmd_37 = cmd('so you r working now')
+cmd_37.op = ['yes im working']
 
-cmd_38 = cmd('so you r working now')
-cmd_38.op = ['yes im working']
-
-cmd_39 = cmd('u r awesome')
-cmd_39.op = ['thankyou!']
+cmd_38 = cmd('u r awesome')
+cmd_38.op = ['thankyou!']
 
 
 def bot(raw):
