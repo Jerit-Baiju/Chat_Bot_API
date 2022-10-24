@@ -1,4 +1,4 @@
-import dictionary
+import dictionary as dict
 
 
 class cmd:
@@ -144,7 +144,7 @@ def bot(raw):
     initial_per = 0
 
     for words in raw:
-        triggers = dictionary.run(words)
+        triggers = dict.run(words)
         if triggers != None:
             for trigger in triggers:
                 if trigger not in intents:
