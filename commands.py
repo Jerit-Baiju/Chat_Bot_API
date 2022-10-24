@@ -20,7 +20,7 @@ def run(bot, name):
         {
             "main": "who is your developer",
             "op": [
-                f"my developer is jerit baiju, you can reach him at https://jerit.herokuapp.com"
+                "my developer is jerit baiju, you can reach him at https://jerit.herokuapp.com"
             ],
         },
         {
