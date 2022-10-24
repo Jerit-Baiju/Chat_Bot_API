@@ -31,6 +31,7 @@ word_23 = words("yes yup yep")
 word_24 = words("awesome good nice")
 word_25 = words("pass passed passes")
 word_26 = words("thats that's")
+word_27 = words("i'm i im")
 
 def run(word):
     for synonyms in words.total:

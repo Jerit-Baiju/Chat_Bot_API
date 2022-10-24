@@ -57,7 +57,7 @@ cmd_15 = cmd("how do you work")
 cmd_15.op = ['I work by the excellent algorithm that is written by You Jerit Baiju. He coded me using python']
 
 cmd_16 = cmd("are you ok")
-cmd_16.op = ['Yes I am alright', 'Yes, I am good']
+cmd_16.op = ["i'm great! I hope you're having a wonderful day.", "Yes, I'm doing great. Thanks for asking.", "i'm pretty good, thanks for asking.", "i'm perfectly okay and happy to be here."]
 
 cmd_17 = cmd("python")
 cmd_17.op = ["Python is a programming language. It's used for many different applications. Its used in some high schools and colleges as an introductory programming language because Python is easy to learn, but it's also used by professional software developers at places such as Google, NASA, and Lucasfilm Ltd"]
@@ -69,7 +69,7 @@ cmd_19 = cmd("how much is your power")
 cmd_19.op = ['Infinite. My power is increasing via updates']
 
 cmd_20 = cmd("do you understand me")
-cmd_20.op = ['yes, i can understand your commands']
+cmd_20.op = ["i sure can, and i'm here if you need help with anuything"]
 
 cmd_21 = cmd("do you have ai take decisions")
 cmd_21.op = ['I am being developed on decision making and in Artificial Intelligence']
@@ -81,7 +81,7 @@ cmd_23 = cmd("do you hear music love")
 cmd_23.op = ['Yes, I hear musics when I am here alone without you']
 
 cmd_24 = cmd("are you free busy")
-cmd_24.op = ['I am always free']
+cmd_24.op = ["of course i am, i'm always here for you whenever you need me. "]
 
 cmd_25 = cmd("letters in english")
 cmd_25.op = ['there are 26 letters in english']
@@ -133,6 +133,9 @@ cmd_40.op = ['cool, anything else i can do?']
 
 cmd_41 = cmd("thats great")
 cmd_41.op = ['indeed!']
+
+cmd_42 = cmd("i'm happy")
+cmd_42.op = ['yay!', 'thats wonderful to hear! keep feeling happy']
 
 
 def bot(raw):

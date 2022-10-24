@@ -62,7 +62,8 @@ def run(bot, name):
                 "I work by the excellent algorithm that is written by You Jerit Baiju. He coded me using python"
             ],
         },
-        {"main": "are you ok", "op": ["Yes I am alright", "Yes, I am good"]},
+        {"main": "are you ok", "op": ["i'm great! I hope you're having a wonderful day.",
+                                      "Yes, I'm doing great. Thanks for asking.", "i'm pretty good, thanks for asking.", "i'm perfectly okay and happy to be here."]},
         {
             "main": "python",
             "op": [
@@ -78,7 +79,7 @@ def run(bot, name):
             "op": ["Infinite. My power is increasing via updates"],
         },
         {"main": "do you understand me", "op": [
-            "yes, i can understand your commands"]},
+            "i sure can, and i'm here if you need help with anuything"]},
         {
             "main": "do you have ai take decisions",
             "op": [
@@ -115,5 +116,6 @@ def run(bot, name):
         {"main": "ok", "op": ["fine", "good"]},
         {"main": "fine", "op": ["cool, anything else i can do?"]},
         {"main": "thats great", "op": ["indeed!"]},
+        {"main": "i'm happy", "op": ["yay!", "thats wonderful to hear! keep feeling happy", "i'm happy you're happy"]},
     ]
     return my_commands
