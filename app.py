@@ -8,7 +8,7 @@ app = Flask('__name__')
 CORS(app)
 
 debug=True
-if debug==True:
+if debug:
     import engine
     engine.run()
 
