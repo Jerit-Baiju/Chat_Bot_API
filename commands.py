@@ -5,18 +5,10 @@ def run(bot, name):
         {"main": "hi", "op": ["hey there !", f"hai {name}", "hello sir"]},
         {
             "main": "alexa",
-            "op": [f"You cannot call me that like, I am not alexa. my name is {bot}"],
+            "op": ["i think you're getting me confused with someone else", " i know you know my real name"],
         },
-        {
-            "main": "how r u",
-            "op": [
-                "i'm feeling good",
-                "i'm fine",
-                "going well",
-                "feeling good",
-                "i'm feeling well",
-            ],
-        },
+        {"main": "how r u", "op": ["i'm splendid! Thank you for asking",
+                                   "i'm doing alright, thanks for asking. i hope you're safe and feeling well."]},
         {
             "main": "you name",
             "op": [
@@ -33,12 +25,12 @@ def run(bot, name):
         },
         {
             "main": "who gave you is wisdom created",
-            "op": ["Jerit gave me Wisdom and knowledge"],
+            "op": ["Jerit baiju designed me"],
         },
         {
             "main": "believe god",
             "op": [
-                "I don't believe in god since I'm made by jerit and I haven't seen God"
+                "i'm still learning about religion."
             ],
         },
         {
@@ -53,7 +45,7 @@ def run(bot, name):
         },
         {
             "main": "did you eat anything",
-            "op": ["No, I can't do that", "Sorry, I can't"],
+            "op": ["i'm already full... of information"],
         },
         {"main": "favorite game", "op": ["i don't play games"]},
         {
@@ -81,18 +73,19 @@ def run(bot, name):
         {"main": "do you understand me", "op": [
             "i sure can, and i'm here if you need help with anuything"]},
         {
-            "main": "do you have ai take decisions",
+            "main": "take decisions",
             "op": [
                 "I am being developed on decision making and in Artificial Intelligence"
             ],
         },
-        {"main": "where do you travel", "op": [
-            "I am traveling between the clouds"]},
+        {"main": "do you have ai", "op": [
+            "my intelligence is artificial, it's true.", "yes, all the intelligence i have is artificial."]},
         {
             "main": "do you hear music love",
             "op": ["Yes, I hear musics when I am here alone without you"],
         },
-        {"main": "are you free busy", "op": ["of course i am, i'm always here for you whenever you need me. "]},
+        {"main": "are you free busy", "op": [
+            "of course i am, i'm always here for you whenever you need me. "]},
         {"main": "letters in english", "op": [
             "there are 26 letters in english"]},
         {"main": "colour of sky", "op": ["blue"]},
@@ -101,7 +94,7 @@ def run(bot, name):
         {"main": "no", "op": ["ok"]},
         {"main": "very good", "op": ["Thankyou"]},
         {"main": "how do you think", "op": ["I think with Ai"]},
-        {"main": "can you help me please", "op": [
+        {"main": "help me please", "op": [
             "Please say how can i help you"]},
         {
             "main": "family",
@@ -112,10 +105,12 @@ def run(bot, name):
             "i'd prefer to think of myself as your friend. who also happens to be artificially intelligent."]},
         {"main": "who is", "op": [f"i'm your {bot}. how can i help you?"]},
         {"main": "so you r working now", "op": ["that's great"]},
-        {"main": "u r awesome", "op": ["thanks for taking the time to chat with me - you make this job fun"]},
+        {"main": "u r awesome", "op": [
+            "thanks for taking the time to chat with me - you make this job fun"]},
         {"main": "ok", "op": ["fine", "good"]},
         {"main": "fine", "op": ["cool, anything else i can do?"]},
         {"main": "thats great", "op": ["indeed!"]},
-        {"main": "i'm happy", "op": ["yay!", "thats wonderful to hear! keep feeling happy", "i'm happy you're happy"]},
+        {"main": "i'm happy", "op": [
+            "yay!", "thats wonderful to hear! keep feeling happy", "i'm happy you're happy"]},
     ]
     return my_commands
