@@ -18,10 +18,10 @@ cmd_2 = cmd("hi")
 cmd_2.op = ['hey there !', 'hai <<root-name>>', 'hello sir']
 
 cmd_3 = cmd("alexa")
-cmd_3.op = ['You cannot call me that like, I am not alexa. my name is <<root-bot>>']
+cmd_3.op = ["i think you're getting me confused with someone else", ' i know you know my real name']
 
 cmd_4 = cmd("how r u")
-cmd_4.op = ["i'm feeling good", "i'm fine", 'going well', 'feeling good', "i'm feeling well"]
+cmd_4.op = ["i'm splendid! Thank you for asking", "i'm doing alright, thanks for asking. i hope you're safe and feeling well."]
 
 cmd_5 = cmd("you name")
 cmd_5.op = ['My name is <<root-bot>>. I can be your Personal Assistant, I am made by Jerit']
@@ -36,10 +36,10 @@ cmd_8 = cmd("who is your developer")
 cmd_8.op = ['my developer is jerit baiju, you can reach him at https://jerit.herokuapp.com']
 
 cmd_9 = cmd("who gave you is wisdom created")
-cmd_9.op = ['Jerit gave me Wisdom and knowledge']
+cmd_9.op = ['Jerit baiju designed me']
 
 cmd_10 = cmd("believe god")
-cmd_10.op = ["I don't believe in god since I'm made by jerit and I haven't seen God"]
+cmd_10.op = ["i'm still learning about religion."]
 
 cmd_11 = cmd("do you watch movies play games")
 cmd_11.op = ['No,I have no interest on those']
@@ -48,7 +48,7 @@ cmd_12 = cmd("sofia")
 cmd_12.op = ['Sophia is a social humanoid robot developed by Hong Kong based company Hanson Robotics. Sophia was activated on February 14, 2016, and made her first public appearance at South by Southwest Festival in mid-March 2016 in Austin, Texas,United States']
 
 cmd_13 = cmd("did you eat anything")
-cmd_13.op = ["No, I can't do that", "Sorry, I can't"]
+cmd_13.op = ["i'm already full... of information"]
 
 cmd_14 = cmd("favorite game")
 cmd_14.op = ["i don't play games"]
@@ -71,11 +71,11 @@ cmd_19.op = ['Infinite. My power is increasing via updates']
 cmd_20 = cmd("do you understand me")
 cmd_20.op = ["i sure can, and i'm here if you need help with anuything"]
 
-cmd_21 = cmd("do you have ai take decisions")
+cmd_21 = cmd("take decisions")
 cmd_21.op = ['I am being developed on decision making and in Artificial Intelligence']
 
-cmd_22 = cmd("where do you travel")
-cmd_22.op = ['I am traveling between the clouds']
+cmd_22 = cmd("do you have ai")
+cmd_22.op = ["my intelligence is artificial, it's true.", 'yes, all the intelligence i have is artificial.']
 
 cmd_23 = cmd("do you hear music love")
 cmd_23.op = ['Yes, I hear musics when I am here alone without you']
@@ -104,7 +104,7 @@ cmd_30.op = ['Thankyou']
 cmd_31 = cmd("how do you think")
 cmd_31.op = ['I think with Ai']
 
-cmd_32 = cmd("can you help me please")
+cmd_32 = cmd("help me please")
 cmd_32.op = ['Please say how can i help you']
 
 cmd_33 = cmd("family")
@@ -135,7 +135,7 @@ cmd_41 = cmd("thats great")
 cmd_41.op = ['indeed!']
 
 cmd_42 = cmd("i'm happy")
-cmd_42.op = ['yay!', 'thats wonderful to hear! keep feeling happy']
+cmd_42.op = ['yay!', 'thats wonderful to hear! keep feeling happy', "i'm happy you're happy"]
 
 
 def bot(raw):
