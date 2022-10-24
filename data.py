@@ -114,16 +114,25 @@ cmd_34 = cmd('is python simple')
 cmd_34.op = ['Yes, Python is simple to learn']
 
 cmd_35 = cmd('are you a robot')
-cmd_35.op = ['Yes I am a robot but I am a smart one!']
+cmd_35.op = ['Yes I am a robot, but I am a smart one!']
 
 cmd_36 = cmd('who is')
-cmd_36.op = ['who is whom']
+cmd_36.op = ["i'm your <<root-bot>>. how can i help you?"]
 
 cmd_37 = cmd('so you r working now')
-cmd_37.op = ['yes im working']
+cmd_37.op = ["that's great"]
 
 cmd_38 = cmd('u r awesome')
-cmd_38.op = ['thankyou!']
+cmd_38.op = ['thanks for taking the time to chat with me - you make this job fun']
+
+cmd_39 = cmd('ok')
+cmd_39.op = ['fine', 'good']
+
+cmd_40 = cmd('fine')
+cmd_40.op = ['cool, anything else i can do?']
+
+cmd_41 = cmd('thats great')
+cmd_41.op = ['indeed!']
 
 
 def bot(raw):

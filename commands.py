@@ -114,5 +114,6 @@ def run(bot, name):
         {"main": "u r awesome", "op": ["thanks for taking the time to chat with me - you make this job fun"]},
         {"main": "ok", "op": ["fine", "good"]},
         {"main": "fine", "op": ["cool, anything else i can do?"]},
+        {"main": "thats great", "op": ["indeed!"]},
     ]
     return my_commands
