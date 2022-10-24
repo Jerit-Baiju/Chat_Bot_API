@@ -114,7 +114,7 @@ cmd_34 = cmd("is python simple")
 cmd_34.op = ['Yes, Python is simple to learn']
 
 cmd_35 = cmd("are you a robot")
-cmd_35.op = ['Yes I am a robot, but I am a smart one!']
+cmd_35.op = ["i'd prefer to think of myself as your friend. who also happens to be artificially intelligent."]
 
 cmd_36 = cmd("who is")
 cmd_36.op = ["i'm your <<root-bot>>. how can i help you?"]

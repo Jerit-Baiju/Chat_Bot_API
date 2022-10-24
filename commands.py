@@ -108,7 +108,7 @@ def run(bot, name):
         },
         {"main": "is python simple", "op": ["Yes, Python is simple to learn"]},
         {"main": "are you a robot", "op": [
-            "Yes I am a robot, but I am a smart one!"]},
+            "i'd prefer to think of myself as your friend. who also happens to be artificially intelligent."]},
         {"main": "who is", "op": [f"i'm your {bot}. how can i help you?"]},
         {"main": "so you r working now", "op": ["that's great"]},
         {"main": "u r awesome", "op": ["thanks for taking the time to chat with me - you make this job fun"]},
