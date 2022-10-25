@@ -32,7 +32,7 @@ def run():
     dict_file.write("""\ndef run(word):
     for synonyms in words.total:
        if word in synonyms.synonyms:
-           return synonyms.synonyms""")
+           return synonyms.synonyms\n""")
 
     dict_file.close()
 
