@@ -69,7 +69,7 @@ cmd_19 = cmd("how much is your power")
 cmd_19.op = ['Infinite. My power is increasing via updates']
 
 cmd_20 = cmd("do you understand me")
-cmd_20.op = ["i sure can, and i'm here if you need help with anuything"]
+cmd_20.op = ["i sure can, and i'm here if you need help with anything"]
 
 cmd_21 = cmd("take decisions")
 cmd_21.op = ['I am being developed on decision making and in Artificial Intelligence']
@@ -136,6 +136,9 @@ cmd_41.op = ['indeed!']
 
 cmd_42 = cmd("i'm happy")
 cmd_42.op = ['yay!', 'thats wonderful to hear! keep feeling happy', "i'm happy you're happy"]
+
+cmd_43 = cmd("keep quiet")
+cmd_43.op = ['keeping quiet', 'ok doing nothing']
 
 
 def bot(raw):

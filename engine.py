@@ -19,7 +19,8 @@ def run():
     total = []
 
     def __init__(self, synonyms):
-        self.synonyms = synonyms.split()
+        synonyms = synonyms.replace(' ', '')
+        self.synonyms = synonyms.split(',')
         words.total.append(self)\n\n""")
 
     for words in open('dict.txt').readlines():

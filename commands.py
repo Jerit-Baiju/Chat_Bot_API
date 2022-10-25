@@ -20,7 +20,7 @@ def run(bot, name):
         {
             "main": "who is your developer",
             "op": [
-                "my developer is jerit baiju, you can reach him at https://jerit.herokuapp.com"
+                f"my developer is jerit baiju, you can reach him at https://jerit.herokuapp.com"
             ],
         },
         {
@@ -71,7 +71,7 @@ def run(bot, name):
             "op": ["Infinite. My power is increasing via updates"],
         },
         {"main": "do you understand me", "op": [
-            "i sure can, and i'm here if you need help with anuything"]},
+            "i sure can, and i'm here if you need help with anything"]},
         {
             "main": "take decisions",
             "op": [
@@ -112,5 +112,9 @@ def run(bot, name):
         {"main": "thats great", "op": ["indeed!"]},
         {"main": "i'm happy", "op": [
             "yay!", "thats wonderful to hear! keep feeling happy", "i'm happy you're happy"]},
+        {"main": "keep quiet", "op": ["keeping quiet", "ok doing nothing"]},
+        # {"main": "", "op": [""]},
+        
     ]
     return my_commands
+# {"main": "", "op": [""]},
