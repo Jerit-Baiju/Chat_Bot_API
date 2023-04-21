@@ -4,6 +4,7 @@ import basic
 import data
 import wikipedia
 
+
 def run(main):
     intents = main.split()
 
@@ -14,7 +15,7 @@ def run(main):
         return "the date is " + str(datetime.datetime.now(pytz.timezone("Asia/Kolkata")).date())
 
     elif main == 'total':
-       return str(len(data.cmd.total)) + ' commands'
+        return str(len(data.cmd.total)) + ' commands'
 
     elif main == 'cmds':
         cmds = []
@@ -34,11 +35,12 @@ def run(main):
         response = data.bot(main)
         if response.op == False or response.per < 50:
             try:
-                return wikipedia.summary(main,sentences=2)
+                return wikipedia.summary(main, sentences=2)
             except:
                 return 'no result were found on network'
         else:
             return response
+
 
 while True:
     intents = input('--> ')
